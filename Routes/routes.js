@@ -50,7 +50,7 @@ module.exports = app => {
         });
         
         // Display index.html when all other routes are accessed
-        app.get('*', function(req,res) {
+        app.get('/', function(req,res) {
             res.sendFile(path.join(__dirname, "../public/index.html"));
         });
 
