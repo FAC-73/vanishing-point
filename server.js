@@ -1,21 +1,20 @@
-// include dependencies
-const express = require("express");
+//dependencies
 const fs = require("fs");
-const path = require('path');
+const express = require("express");
+const path = require("path");
 
-// Initialize express app
+// Sets up the Express App
 const app = express();
+// Sets port for listening and let heroku decide on port, if not, use port 8080
 const PORT = process.env.PORT || 3000;
 
-// Setup data parsing
+//serve images, CSS files, and JavaScript files in a directory named public
+app.use(express.static('public'));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(express.static(__dirname + '/public'));
 
-//Require routes file
+// include routes
 require('./routes')(app);
 
-// Setup listener
-app.listen(PORT, function() {
-    console.log("App listening on PORT: " + PORT);
-}); 
+//listen tot he port when deployed
+app.listen(PORT, () => console.log("Server listening on port " + PORT));
