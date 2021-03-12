@@ -27,6 +27,7 @@ app.post("/api/notes", (req, res) => {
 
     //create new property called id using length property, assign to the json object
     newNote.id = notelength;
+    
     //push updated note to data in db.json
     noteList.push(newNote);
 
