@@ -14,7 +14,7 @@ A simple note taking application allows you to create, save, edit and delete not
 - [Contributing](#contributing)
 - [Questions](#questions)
 
-![Note taker app with express.js](https://github.com/FAC-73/dream-attack/blob/master/Assets/ReadmeGenerator.gif?raw=true)
+![Note taker app with express.js](https://github.com/FAC-73/vanishing-point/blob/main/Assets/Demo.png?raw=true)
 <br />
 
 ## User Story
@@ -138,9 +138,6 @@ Clone the repo to your local development environment.
 ```md
 git clone https://github.com/FAC-73/vanishing-point.git
 ```
-```md
-npm install inquirer
-```
 Navigate to the vanishing-point folder directory using the command prompt.
 
 Run `npm install` to install all dependencies. To use the application locally, run `node server.js` in terminal or bash, and then open http://localhost:3000 [or whatever terminal port you have specified] in your preferred browser. 
@@ -148,12 +145,33 @@ Run `npm install` to install all dependencies. To use the application locally, r
 ## Usage
 Launch the [app ](https://pure-stream-99195.herokuapp.com/)
 
+![Note taker app with express.js](https://github.com/FAC-73/vanishing-point/blob/main/Assets/Screenshot-of-app.png?raw=true)
+<br />
 1. Click the `get started` button to navigate to the `/notes' route
+<br />
+
+![Create note](https://github.com/FAC-73/vanishing-point/blob/main/Assets/Create-new.png?raw=true)
+<br />
 2. In the notes page add text into the *Note title* and *Note text* fields
+<br />
+
+![Save note](https://github.com/FAC-73/vanishing-point/blob/main/Assets/Save-note.png?raw=true)
+<br />
+
 3. Once both inputs have been filled out a *save button* should appear in the top right corner
 4. Click save to save the note
 5. The saved note is appended to the list on the left
+<br />
+
+![Edit note](https://github.com/FAC-73/vanishing-point/blob/main/Assets/Edit-item.png?raw=true)
+<br />
+
 6. To edit a note click on any of the items in the list and edit the input text, click save to save changes
+<br />
+
+![Delete note](https://github.com/FAC-73/vanishing-point/blob/main/Assets/Delete-item.png?raw=true)
+<br />
+
 7. To delete, use the delete button on each list item.
 
 
