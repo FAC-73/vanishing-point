@@ -203,4 +203,4 @@ Launch the [app ](https://pure-stream-99195.herokuapp.com/)
 [https://github.com/FAC-73/vanishing-point](https://github.com/FAC-73/vanishing-point)
 
 ### 🔗 Deployed application:
-[https://github.com/FAC-73/vanishing-point](https://github.com/FAC-73/vanishing-point)
+[https://pure-stream-99195.herokuapp.com/](https://pure-stream-99195.herokuapp.com/)
