@@ -105,6 +105,7 @@ app.post("/api/notes", (req, res) => {
 
     //create new property called id using length property, assign to the json object
     newNote.id = notelength;
+    
     //push updated note to data in db.json
     noteList.push(newNote);
 
@@ -152,6 +153,7 @@ Launch the [app ](https://pure-stream-99195.herokuapp.com/)
 
 ![Create note](https://github.com/FAC-73/vanishing-point/blob/main/Assets/Create-new.png?raw=true)
 <br />
+
 2. In the notes page add text into the *Note title* and *Note text* fields
 <br />
 
